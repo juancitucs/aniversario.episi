@@ -112,6 +112,12 @@
           tone: "innovacion",
         },
         {
+          time: "10:00 — 13:00",
+          title: "Torneo de Ajedrez",
+          tag: "Ajedrez",
+          tone: "cultura",
+        },
+        {
           time: "14:00 — 20:00",
           title: "Campeonato Videojuegos E-Sport EPISI 2026",
           tag: "E-Sport",

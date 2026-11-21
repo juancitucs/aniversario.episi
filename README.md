@@ -18,13 +18,31 @@ Invitación web interactiva y minimalista para el 19.º aniversario de la **Escu
   - **Introducción:** Estadísticas de la trayectoria de la carrera.
   - **Cuenta Regresiva:** Reloj en vivo hacia la ceremonia central del 29 de noviembre de 2026 + botón para descargar evento `.ics` compatible con Google Calendar, Apple Calendar y Outlook.
   - **Programa Interactivo:** Navegación por pestañas por cada día del aniversario (21 al 29 de noviembre) con etiquetas de tipo de actividad.
+  - **Actividades Destacadas:** Tarjetas con las actividades y concursos del aniversario:
+    - 💻 **Concurso de Programación:** Desafíos algorítmicos, lógica y desarrollo de software.
+    - ♟️ **Torneo de Ajedrez:** Estrategia, concentración y pensamiento táctico.
+    - 🎮 **Competencia de Videojuegos (E-Sports):** Partidas competitivas y reflejos.
+    - ⚽ **Actividades Deportivas:** Gran Campeonato Intercódigos e integración.
   - **Desfile Institucional:** Detalles de ensayo y concentración del desfile.
-  - **Archivo Oficial (Lightbox):** Galería interactiva con las 3 piezas originales escaneadas (Invitación, Cronograma y Aviso) con visor ampliado y navegación por teclado (Escape, flechas).
+  - **Archivo Oficial (Lightbox):** Galería interactiva con las piezas originales escaneadas (Invitación, Cronograma y Aviso) con visor ampliado y navegación por teclado (Escape, flechas).
   - **Pie de Página:** Enlaces y botón para compartir enlace.
 
 ---
 
-## 🚀 Cómo Visualizar
+## 🌐 Despliegue en GitHub Pages
+
+El proyecto cuenta con soporte nativo para **GitHub Pages**:
+
+1. Archivo `.nojekyll` para asegurar que todos los recursos se sirvan correctamente sin procesamiento de Jekyll.
+2. Workflow automatizado de GitHub Actions en `.github/workflows/deploy.yml` que publica la rama `main` automáticamente.
+3. Para habilitarlo en tu repositorio:
+   - Ve a **Settings** > **Pages** en GitHub.
+   - En **Source**, selecciona **GitHub Actions** (o **Deploy from a branch** seleccionando la rama `main` y carpeta `/root`).
+   - La página estará disponible en: `https://juancitucs.github.io/PAGINAIHC/`
+
+---
+
+## 🚀 Cómo Visualizar en Local
 
 Simplemente abre el archivo `index.html` en cualquier navegador web moderno:
 
